@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mete charset="UTF-8"></mete><!--编码格式-->
+        <title>新的html网页</title>
+    </head>
+    <body>
+        第一行<br />
+        第二行<br />
+        <hr>
+        第三行<br />
+        <h1 style="font-size: 20px;">Test</h1>
+        <h1>Test</h1><!--对网页来说是重要性--> 
+        <h2>Test</h2>
+        <h3>Test</h3>
+        <h4>Test</h4>
+        <h5>Test</h5>
+        <h6>Test</h6>
+        <p>Test</p><p>Test2</p><!--段落(区块)-->
+        <p style="display: inline;">Test</p><p style="display: inline;">Test2</p>
+        <span>Test</span><span>Test2</span>
+        <span style="display: block;">Test</span><span>Test2</span>
+        <!--第四行<br>
+        第五行<br />
+        第六行<br />-->
+        <hr>
+        <p>这是一个 p 标签</p>
+        这是一个<span>span 标签</span><br/><br/>
+        这是一个<b>b 标签</b><br><br/><!--粗体-->
+        這是一個< strong> strong標籤</ strong><br/><br/><!--强语气粗体-->
+        這是一個<i>i標籤</i><br/><br/><!--斜体-->
+        這是一個<em>em標籤</em><br/><br/><!--强语气斜体-->
+        這是一個<del>deL標籤</del><br/><br/>
+        這是一個<ins>ins標籤</ins><br/><br/>
+        這是一個<u>u標籤</u><br/><br/><br/> 
+        這是一個<mark>mark標籤</mark><br/><br/>
+        這是一個<mark style="background: green;">mark標籤</mark><br/><br/>
+        這是一個<big>big標籤<big>big標籤<big>big標籤</big></big></big><br/><br/>
+        這是一個<small> smaLL標籤<small> smaLL標籤</small><small> smaLL標籤</small></small><br/><br/>
+        這是一個<sup>sup標籤<sup>sup標籤</sup></sup><br/><br/><!--上标 -->
+        這是一個<sub>sub標籤<sub>sub標籤</sub></sub><br/><!-- 下标-->
+        這是一個<code>code標籤</code><br/><br/><!--识别为代码-->
+        這是一個<kbd>kbd標籤</kbd><br/><br/><!--识别为键盘指令-->
+        這是一個<q>q標籤</q><br/><br/><!--双引号 -->
+        <xmp><p>xmp p 标签</p></xmp>
+        <hr>
+        <div style="width: 120px;height: 120px;background-color: red;"><!-- 不限制宽和高的时候会根据内容大小去自动拓展，设置之后内容超出会直接显示出去，一般不设置。-->
+            <!--   <div style="width: 120x;height: 120px;background-color:                         rgb(28,167,248);">   
+                    <div style="width: 120x;height: 120px;background-color: rgba(28,167,248,0.3);">-->
+            <p>test 1 </p>
+        </div>
+         <div style="width: 120px;height: 120px;background-color: blue;">
+             <p style="font-size: 30px">test 2</p>
+             <p>test 2</p>
+        </div>
+        <div style="background-color: green;font-size: 100px;">
+            <p>test 3</p>
+            <p>test 3</p>
+            <p>test 3</p>
+            <p>test 3</p>
+            <p>test 3</p>
+        </div>
+        <hr>
+        <!--
+            <div></div>
+            <main></main>
+            <header></header>
+            <nav></nav>
+            <footer></footer>
+            <article></article>
+            <address></address>
+-->
+        <div id="section_post">
+            <div id="_header" style="background: rgba(0,0,255,0.56);color: white;">
+                <span style="width: 30%;display: inline-block;">标题</span>
+                <span style="width: 300px;"></span>
+                <div id="_nav" style="width: 30%; display: inline-block;">
+                    <!-- display: inline-block(div 默认会换行，让他不换行)  -->
+                    <a href="http://wwwgoogle.com" target="_blank">google</a>
+                    <a href="page1.html">第一页</a>
+                    <a href="page2.html">第二页</a>    
+                    <span>第三页</span>
+                </div>
+            </div>
+            <hr/>
+
+            <div id="_main">
+                <div id="_article" style="display: inline-block;width: 500px;">
+                    <section style="background: yellow">
+                    <h1>section 1</h1>
+                        <a href="#section2">跳到第二段</a>
+                        <a href="#not_important">跳到第三段</a>
+                        <a href="#important">跳到重要</a>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p> 
+                    </section>
+                    <section id="section2"; style="background: gray;">
+                    <h1>section 2</h1>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p id="important">重要！！！！文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p> 
+                    </section>
+                    <section id="not_important"; style="background: pink;">
+                    <h1>section 3</h1>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p>
+                        <p>文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 </p> 
+                    </section>
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容   
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容   
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容
+                    文章内容 文章内容 文章内容 文章内容 文章内容 文章内容 文章内容
+                </div>
+                <div id="_aside" style="display: inline-block; width:300px;">
+                    广告内容 广告内容 广告内容 广告内容 广告内容
+                    广告内容 广告内容 广告内容 广告内容 广告内容
+                    广告内容 广告内容 广告内容 广告内容 广告内容
+                </div>
+            </div>
+            <hr/>
+            <table border="1" style="width: 90%">
+                    <thead>
+                        <tr>
+                            <th style="width: 30%">排名</th>
+                            <th style="width: 30%">姓名</th>
+                            <th style="width: 40%">现金</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2</td>
+                            <td rowspan="2">Jason</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>200</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" style="text-align: right;">
+                                小计：360
+                            </td>
+
+                        </tr>
+                    </tfoot>
+            </table>
+            <hr>
+            <img src="https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+            <img style="width: 50%;" src="images/photo1.jpg" alt="This is apicture. "><!--alt 当图片连接不到时会显示 -->
+            <hr/>
+            <div id="_footer" style="background: gray;color: white;">
+                <ul style="list-style-type: circle;"><!--circle\square\upper-roman\lower-alpha -->
+                    <li><a href="mailto:chao983711219@gmail.com?subject=我有一个问题&body=我看不太懂..">联络我们</a></li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                </ul>
+            
+                <ol type="A">
+                    <li><a href="mailto:chao983711219@gmail.com?subject=我有一个问题&body=我看不太懂..">联络我们</a></li>
+                    <li>link 2</li>
+                    <li>link 3</li>
+                </ol>
+                <dl>
+                    <dt><a href="mailto:chao983711219@gmail.com?subject=我有一个问题&body=我看不太懂..">联络我们</a></dt>
+                    <dd><a href="mailto:chao983711219@gmail.com?subject=我有一个问题&body=我看不太懂..">联络我们</a></dd>
+                    <dd>link 1.2</dd>
+                    <dt>title 2</dt>
+                    <dd>link 2.1</dd>
+                </dl><!--常用ul -->
+
+                <span>联络我们</span>
+                <a href="mailto:chao983711219@gmail.com?subject=我有一个问题&body=我看不太懂..">联络我们</a><!--subject自动填充了主题，body填充了身体，加&cc或&bcc或附带发送给其他人，会隐藏 -->
+                <div id="_adress">
+                    联系方式
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+    </body>
+    
+</html>
